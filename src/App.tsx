@@ -5,7 +5,7 @@ import Footer from './components/Footer';
 
 import About from './sections/About';
 import Flexibility from './sections/Flexibility'
-import Selfcontrol from './sections/Selfcontrol';
+import Selfconfidence from './sections/Selfconfidence';
 
 import GlobalStyle from './styles/global';
 import { Container, Content } from './styles/app';
@@ -21,15 +21,14 @@ const App: React.FC = () => {
             <button onClick={() => newSection(<About />)}>Resiliência</button>
           </div>
           <hr />
-          <button onClick={() => newSection(<Selfcontrol />)}>Autocontrole</button>
-          <button>Flexibilidade</button>
+          <button onClick={() => newSection(<Selfconfidence />)}>Autoconfiança</button>
+          <button onClick={() => newSection(<Flexibility />)}>Flexibilidade</button>
           <button>Persistência</button>
           <button>Otimismo</button>
           <button>Empatia</button>
       </nav>
       <Content>
-        <About />
-        <Flexibility />
+        {section}
       </Content>
       <Footer />
       <GlobalStyle />

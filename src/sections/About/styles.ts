@@ -1,8 +1,12 @@
 import styled from 'styled-components';
+import { shade } from 'polished';
+
+import backgroundImg from '../../assets/city.jpg';
 
 export const Container = styled.div`
   display: flex;
-  margin-top: 12px;
+  height: 35vw;
+  background: url(${backgroundImg}) no-repeat 0 top;
 
   > div {
     display: flex;
@@ -12,9 +16,10 @@ export const Container = styled.div`
   }
 `;
 
-export const Left = styled.div`
+export const Content = styled.div`
   display: flex;
   justify-content: center;
+  color: #fff;
 
   h1 {
     font-size: 92px;
@@ -30,13 +35,14 @@ export const Left = styled.div`
 
   strong {
     font-weight: 800;
+    color: #fff;
   }
 
   hr {
     border: none;
     width: 64px;
     height: 6px;
-    background: #1333DF;
+    background: #4863f7;
   }
 
   div {
@@ -45,12 +51,13 @@ export const Left = styled.div`
   }
 
   ul {
+    display: flex;
     margin-top: 16px;
     list-style: none;
     line-height: 3;
 
     svg {
-      color: #1333DF;
+      color: #4863f7;
       margin-right: 12px;
     }
   }

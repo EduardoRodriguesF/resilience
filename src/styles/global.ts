@@ -21,7 +21,7 @@ export default createGlobalStyle`
     font: 1.2rem Poppins, sans-serif;
   }
 
-  p, span {
+  p, span, li, a {
     font-family: Overpass, sans-serif;
   }
 

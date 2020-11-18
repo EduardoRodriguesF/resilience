@@ -60,7 +60,17 @@ export const Content = styled.div`
   width: 100vw;
 
   div {
-    opacity: 1;
-    transition: opacity 0.5s;
+    animation: fadeIn .8s backwards ease-out;
+
+    @keyframes fadeIn {
+      from {
+        opacity: 0;
+        transform: translateX(-50%);
+      }
+      to {
+        opacity: 1;
+        transform: translateX(0);
+      }
+    }
   }
 `;
