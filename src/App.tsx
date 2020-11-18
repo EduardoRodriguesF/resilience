@@ -4,6 +4,7 @@ import { RiPlantLine } from 'react-icons/ri';
 import Footer from './components/Footer';
 
 import About from './sections/About';
+import Flexibility from './sections/Flexibility'
 import Selfcontrol from './sections/Selfcontrol';
 
 import GlobalStyle from './styles/global';
@@ -27,7 +28,8 @@ const App: React.FC = () => {
           <button>Empatia</button>
       </nav>
       <Content>
-        {section}
+        <About />
+        <Flexibility />
       </Content>
       <Footer />
       <GlobalStyle />

@@ -13,12 +13,20 @@ export default createGlobalStyle`
     -webkit-font-smoothing: antialiased;
   }
 
+  body, html {
+    overflow-x: hidden;
+  }
+
   body, input, button {
-    font: 16px Poppins, sans-serif;
+    font: 1.2rem Poppins, sans-serif;
   }
 
   p, span {
     font-family: Overpass, sans-serif;
+  }
+
+  strong {
+    color: #000;
   }
 
   button {

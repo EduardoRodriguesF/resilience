@@ -58,7 +58,6 @@ export const Container = styled.div`
 
 export const Content = styled.div`
   width: 100vw;
-  padding: 0 24px;
 
   div {
     opacity: 1;
