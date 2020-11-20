@@ -21,15 +21,15 @@ const Flexibility: React.FC = () => {
           />
           <FlexCard
             title="Mercado de trabalho"
-            description="Constante processo de mudanças. Mudanças estas que acontecem para que haja evolução contínua."
+            description="Constante processo de mudanças. Mudanças estas que acontecem para que haja evolução contínua, e são as pessoas flexíveis que chegarão ao topo."
           />
           <FlexCard
             title="Clientes"
-            description="Sempre em busca de soluções inovadoras e criativas para sanar suas mais diversas necessidades."
+            description="Sempre em busca de soluções inovadoras e criativas para sanar suas mais diversas necessidades, e você precisará se desdobrar de acordo com cada um."
           />
           <FlexCard
             title="Flexbox"
-            description="Seja como uma, adapte-se de acordo com a circunstãncia para manter-se responsivo!"
+            description="Seja como uma, adapte-se de acordo com a circunstância para manter-se responsivo!"
           />
           <span>Redimensione<FiArrowDownRight size={20} /></span>
         </Content>

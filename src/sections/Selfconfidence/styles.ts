@@ -22,7 +22,7 @@ export const Content = styled.div`
   h2 {
     font-size: 52px;
     font-weight: 400;
-    color: #1333DF;
+    color: #4863f7;
 
     span {
       font-family: Poppins, sans-serif;
@@ -44,7 +44,7 @@ export const Content = styled.div`
       display: flex;
       align-items: center;
       svg {
-        color: #1333DF;
+        color: #4863f7;
         margin-right: 12px;
       }
     }
@@ -54,11 +54,11 @@ export const Content = styled.div`
     text-decoration: none;
     margin-top: 12px;
     font-size: 24px;
-    color: #1333DF;
+    color: #4863f7;
     transition: color 0.2s;
 
     &:hover {
-      color: ${shade(0.4, '#1333DF')};
+      color: ${shade(0.4, '#4863f7')};
     }
   }
 `;

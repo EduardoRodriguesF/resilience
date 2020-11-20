@@ -11,15 +11,22 @@ export const Container = styled.div`
   > div {
     display: flex;
     flex-direction: column;
-    padding: 32px;
+    padding: 48px;
     line-break: auto;
   }
 `;
 
 export const Content = styled.div`
   display: flex;
-  justify-content: center;
+  width: 100%;
+  flex-direction: row !important; 
+  justify-content: space-between;
   color: #fff;
+  text-shadow: 0px 2px 5px rgba(0,0,0,0.68);
+
+  @media (max-width: 800px) {
+    flex-direction: column !important;
+  }
 
   h1 {
     font-size: 92px;
@@ -35,7 +42,7 @@ export const Content = styled.div`
 
   strong {
     font-weight: 800;
-    color: #fff;
+    color: #4863f7;
   }
 
   hr {
@@ -48,6 +55,7 @@ export const Content = styled.div`
   div {
     margin-top: 24px;
     max-width: 600px;
+    padding: 24px;
   }
 
   ul {
@@ -66,6 +74,13 @@ export const Content = styled.div`
       color: #4863f7;
       margin-right: 12px;
     }
+  }
+
+  .text {
+    display: flex;
+    flex: 1;
+    justify-content: center;
+    text-align: center;
   }
 `;
 

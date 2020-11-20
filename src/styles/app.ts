@@ -6,6 +6,7 @@ export const Container = styled.div`
 
   nav {
     display: flex;
+    flex-wrap: wrap;
     justify-content: space-between;
     padding: 24px 36px;
     max-width: 1100px;
@@ -46,13 +47,21 @@ export const Container = styled.div`
         width: 0;
         height: 3px;
         transition: all .4s;
-        background-color: #1333DF;
+        background-color: #4863f7;
       }
       &:hover::after {
         width: 100%;
         left: 0;
       }
+
+      @media (max-width: 800px) {
+        font-size: 12px;
+      }
     }
+  }
+
+  @media (max-width: 800px) {
+    flex-direction: column;
   }
 `;
 

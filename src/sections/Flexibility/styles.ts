@@ -26,12 +26,12 @@ export const Container = styled.div`
 
   /* Handle */
   ::-webkit-scrollbar-thumb {
-    background: #1333DF;
+    background: #4863f7;
   }
 
   /* Handle on hover */
   ::-webkit-scrollbar-thumb:hover {
-    background: #1333DF;
+    background: #4863f7;
   }
 `;
 
@@ -54,6 +54,10 @@ export const Content = styled.div`
   resize: horizontal;
   overflow: auto;
 
+  @media (max-width: 800px) {
+    width: 100%;
+  }
+
   > div {
     flex: 1 1 300px;
     margin: 12px;
@@ -66,7 +70,7 @@ export const Content = styled.div`
     bottom: 0;
 
     svg {
-      color: #1333DF;
+      color: #4863f7;
     }
   }
 `;

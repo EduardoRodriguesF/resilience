@@ -11,26 +11,34 @@ export const Container = styled.div`
 
 export const Content = styled.div`
   width: 100%;
-  height: 100%;
+  height: 800px;
   position: relative;
   display: flex;
   flex-direction: column;
-  place-content: center;
+  align-items: center;
+  justify-content: space-between;
   z-index: 1;
   color: #fff;
   padding: 48px;
   
   h2, h3 {
-    font-size: 46px;
     text-align: center;
   }
 
+  h2 { 
+    font-size: 52px;
+  }
+
   h3 {
+    font-size: 46px;
     margin-top: 42px;
   }
 
+  strong {
+    color: #4863f7;
+  }
+
   div {
-    margin-top: 32px;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -65,7 +73,7 @@ export const Background = styled.div`
   
   div.background {
     background: url(${backgroundImg}) no-repeat center;
-    background-size: auto 100%;
+    background-size: auto 150%;
     opacity: 0.2;
   }
 `;

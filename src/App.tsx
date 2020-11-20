@@ -15,8 +15,9 @@ const App: React.FC = () => {
   const [section, newSection] = useState(<About />);
 
   return (
-    <Container>
-      <nav>
+    <>
+      <Container>
+        <nav>
           <div>
             <RiPlantLine size={28} />
             <button onClick={() => newSection(<About />)}>Resiliência</button>
@@ -25,13 +26,13 @@ const App: React.FC = () => {
           <button onClick={() => newSection(<Selfconfidence />)}>Autoconfiança</button>
           <button onClick={() => newSection(<Flexibility />)}>Flexibilidade</button>
           <button onClick={() => newSection(<Persistence />)}>Persistência</button>
-      </nav>
-      <Content>
-        {section}
-      </Content>
-      <Footer />
-      <GlobalStyle />
-    </Container>
+        </nav>
+        <Content>
+          {section}
+        </Content>
+        <GlobalStyle />
+      </Container>
+    </>
   );
 }
 

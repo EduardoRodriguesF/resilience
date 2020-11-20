@@ -15,6 +15,10 @@ export default createGlobalStyle`
 
   body, html {
     overflow-x: hidden;
+
+    @media (max-width: 800px) {
+      overflow-x: visible;
+    }
   }
 
   body, input, button {
