@@ -5,7 +5,7 @@ import backgroundImg from '../../assets/city.jpg';
 
 export const Container = styled.div`
   display: flex;
-  height: 35vw;
+  min-height: 800px;
   background: url(${backgroundImg}) no-repeat 0 top;
 
   > div {
@@ -52,9 +52,15 @@ export const Content = styled.div`
 
   ul {
     display: flex;
+    justify-content: center;
     margin-top: 16px;
     list-style: none;
     line-height: 3;
+
+    li {
+      text-align: center;
+      flex: 1;
+    }
 
     svg {
       color: #4863f7;

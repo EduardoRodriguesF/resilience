@@ -9,7 +9,7 @@ const Selfconfidence: React.FC = () => {
         <Background />
         <Content>
           <h2>AUTO<span>CONFIANÇA</span></h2>
-          <p>Existem, pelo menos, cinco atitudes que podem mudar essa percepção de si mesma. O site americano "Learn Vest", que dá dicas de carreira e finanças para mulheres, recomenda cinco hábitos.</p>
+          <p>Existem pelo menos cinco atitudes que podem mudar essa percepção de si mesma. O site americano "Learn Vest", que dá dicas de carreira e finanças para mulheres, recomenda cinco hábitos.</p>
           <ul>
             <li><FaCheck /> Cerque-se de pessoas positivas</li>
             <li><FaCheck /> Tenha organização</li>
